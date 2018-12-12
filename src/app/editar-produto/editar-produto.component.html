@@ -1,0 +1,15 @@
+<div>
+  <h2>Adicionar Produto</h2>
+  <div>
+    <label>Nome do Produto:
+      <input [(ngModel)]="productData.prod_nome" placeholder="Nome do Produto"/>
+    </label><br>
+    <label>Descrição do Produto:
+      <input [(ngModel)]="productData.prod_descricao" placeholder="Descrição do Produto"/>
+    </label><br>
+    <label>Preço do Produto:
+      <input [(ngModel)]="productData.prod_preco" placeholder="Preço do Produto"/>
+    </label><br>
+  </div>
+  <button (click)="atualizarProduto()">Atualizar</button>
+</div>
